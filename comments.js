@@ -1,8 +1,6 @@
-//create web server
+// Create web server
 //=====================
-
 //import module
-
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
@@ -29,3 +27,4 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
+``
